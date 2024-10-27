@@ -1,0 +1,118 @@
+<products>
+  <company>
+  <id> 11</id>
+  <name>samsung</name>
+  <unit_price>35000</unit_price>
+  <stock>50</stock>
+  <status>1 </status>
+  </company>
+  
+  <company>
+  <id> 20</id>
+  <name>htc</name>
+  <unit_price>65300</unit_price>
+  <stock>35</stock>
+  <status>0 </status>
+  </company>
+  
+  <company>
+  <id> 23</id>
+  <name>nokia</name>
+  <unit_price>25100</unit_price>
+  <stock>100</stock>
+  <status>1 </status>
+  </company>
+  
+  </products>
+  ////////////////
+  
+  
+  <students>
+     <student>
+	 <id>23</id>
+	 <first_name>John</first_name>
+	 <last_name> carter</last_name>
+	 <day>25 </day>
+	 <month> 12</month>
+	 <year>2015</year>
+	  </student>
+	 
+	 <student>
+	 <id>29</id>
+	 <name>Bob Marshal</name>
+	 <day>13</day>
+	 <month>01</month>
+	 <year>1999</year>
+	 </student>
+	 
+	 <student>
+	 <id>35</id>
+	 <name>Clark Kent </name>
+	 <day>17</day>
+	 <month>06</month>
+	 <year>2005</year>
+	 </student>
+	  </students>
+	 
+	 //////////////
+	 
+	 <company>
+	   <employee>
+	   <id>1</1>
+	   <name>
+	   <first_name>John</first_name>
+	   <last_name>doe</last_name>
+	   </name>
+	   
+	  <address>
+	  <flat></flat>
+	  <house>38</house>
+	  <road>3</road>
+	  <area>banani</area>
+	  <district>dhaka</district>
+	  </address>
+	  
+	 <depertment> sales </depertment>
+	 <salary>20000</salary>
+	 </employee>
+	 
+	  <employee>
+	   <id>2</1>
+	   <name>
+	   <first_name>mark</first_name>
+	   <last_name>zuckerberg</last_name>
+	   </name>
+	   
+	  <address>
+	  <flat>1</flat>
+	  <house>20</house>
+	  <road>18</road>
+	  <area>mirpur</area>
+	  <district>dhaka</district>
+	  </address>
+	  
+	 <depertment> account </depertment>
+	 <salary>12000</salary>
+	 </employee>
+   
+    <employee>
+	   <id>3</1>
+	   <name>
+	   <first_name>ala</first_name>
+	   <last_name>voski</last_name>
+	   </name>
+	   
+	  <address>
+	  <flat></flat>
+	  <house>38</house>
+	  <road>3</road>
+	  <area>banani</area>
+	  <district></district>
+	  </address>
+	  
+	 <depertment>Human Resource </depertment>
+	 <salary>3000</salary>
+	 </employee>
+	 
+	 </company>
+	 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Employee</title>
+</head>
+<body>
+<h1>Search Employee</h1>
+<input type="text" id="searchQuery" placeholder="Search Employee">
+<button onclick="searchEmployee()">Search</button>
+<div id="searchResults"></div>
+<script>
+       function searchEmployee() {
+           const query = document.getElementById("searchQuery").value;
+           if (!query) {
+               alert("Please enter a search query.");
+               return;
+           }
+           const xhr = new XMLHttpRequest();
+           xhr.open("GET", `searchEmployee.php?query=${query}`, true);
+           xhr.onload = function () {
+               if (xhr.status === 200) {
+                   document.getElementById("searchResults").innerHTML = xhr.responseText;
+               } else {
+                   alert("Error occurred while searching.");
+               }
+           };
+           xhr.send();
+       }
+</script>
+</body>
+</html>
